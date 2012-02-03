@@ -3,145 +3,145 @@
 ;;(defvar qml-font-lock-default-face 'qml-font-lock-default-face)
 
 (let ((red "#a35757")
-			(green "#7ac470")
-			(yellow "#dfe14e")
-			(orange "#ef6d22")
-			(blue "#5083b2")
-			(magenta "#b781ac")
-			(cyan "#b0b5d2")
-			(white "#f0f0f0"))
+	  (green "#7ac470")
+	  (yellow "#dfe14e")
+	  (orange "#ef6d22")
+	  (blue "#5083b2")
+	  (magenta "#b781ac")
+	  (cyan "#b0b5d2")
+	  (white "#f0f0f0"))
 
-	(defface qml-preprocessor-kwds-face 
-			`((t (:foreground ,yellow)))
-		"*Face for preprocesor directives."
-		)
+  (defface qml-preprocessor-kwds-face 
+	`((t (:foreground ,yellow)))
+	"*Face for preprocesor directives."
+	)
   (defvar qml-preprocessor-kwds-face 'qml-preprocessor-kwds-face)
 
-	(defface qml-constant-kwds-face 
-			`((t (:foreground ,cyan)))
-		"*"
-		)
-	(defvar qml-constant-kwds-face 'qml-constant-kwds-face)
+  (defface qml-constant-kwds-face 
+	`((t (:foreground ,cyan)))
+	"*"
+	)
+  (defvar qml-constant-kwds-face 'qml-constant-kwds-face)
 
-	(defface qml-global-funcs-face 
-			`((t (:foreground ,red)))
-		"*"
-		)
-	(defvar qml-global-funcs-face 'qml-global-funcs-face)
+  (defface qml-global-funcs-face 
+	`((t (:foreground ,red)))
+	"*"
+	)
+  (defvar qml-global-funcs-face 'qml-global-funcs-face)
 
-	(defface qml-global-classes
-			`((t (:foreground ,blue)))
-		"*"
-		)
-	(defvar qml-global-classes 'qml-global-classes)
+  (defface qml-global-classes
+	`((t (:foreground ,blue)))
+	"*"
+	)
+  (defvar qml-global-classes 'qml-global-classes)
 
-	(defface qml-global-props-face 
-			`((t (:foreground ,blue)))
-		"*"
-		)
-	(defvar qml-global-props-face 'qml-global-props-face)
+  (defface qml-global-props-face 
+	`((t (:foreground ,blue)))
+	"*"
+	)
+  (defvar qml-global-props-face 'qml-global-props-face)
 
-	(defface qml-operators-face 
-			`((t (:foreground ,yellow)))
-		"*"
-		)
-	(defvar qml-operators-face 'qml-operators-face) 
+  (defface qml-operators-face 
+	`((t (:foreground ,yellow)))
+	"*"
+	)
+  (defvar qml-operators-face 'qml-operators-face) 
 
-	(defface qml-specifier-kwds-face 
-			`((t (:foreground ,magenta)))
-		"*"
-		)
-	(defvar qml-specifier-kwds-face 'qml-specifier-kwds-face)
+  (defface qml-specifier-kwds-face 
+	`((t (:foreground ,magenta)))
+	"*"
+	)
+  (defvar qml-specifier-kwds-face 'qml-specifier-kwds-face)
 
-	(defface qml-package-kwds-face 
-			`((t (:foreground ,yellow)))
-		"*"
-		)
-	(defvar qml-package-kwds-face 'qml-package-kwds-face)
+  (defface qml-package-kwds-face 
+	`((t (:foreground ,yellow)))
+	"*"
+	)
+  (defvar qml-package-kwds-face 'qml-package-kwds-face)
 
-	(defface qml-class-kwds-face 
-			`((t (:foreground ,yellow)))
-		"*"
-		)
-	(defvar qml-class-kwds-face 'qml-class-kwds-face)
+  (defface qml-class-kwds-face 
+	`((t (:foreground ,yellow)))
+	"*"
+	)
+  (defvar qml-class-kwds-face 'qml-class-kwds-face)
 
-	(defface qml-other-decl-kwds-face 
-			`((t (:foreground ,yellow)))
-		"*"
-		)
-	(defvar qml-other-decl-kwds-face 'qml-other-decl-kwds-face)
+  (defface qml-other-decl-kwds-face 
+	`((t (:foreground ,yellow)))
+	"*"
+	)
+  (defvar qml-other-decl-kwds-face 'qml-other-decl-kwds-face)
 
-	(defface qml-other-decl-2-kwds-face 
-			`((t (:foreground ,blue)))
-		"* function, var"
-		)
-	(defvar qml-other-decl-2-kwds-face 'qml-other-decl-2-kwds-face)
+  (defface qml-other-decl-2-kwds-face 
+	`((t (:foreground ,blue)))
+	"* function, var"
+	)
+  (defvar qml-other-decl-2-kwds-face 'qml-other-decl-2-kwds-face)
 
-	(defface qml-decl-level-kwds-face 
-			`((t (:foreground ,yellow)))
-		"*"
-		)
-	(defvar qml-decl-level-kwds-face 'qml-decl-level-kwds-face)
+  (defface qml-decl-level-kwds-face 
+	`((t (:foreground ,yellow)))
+	"*"
+	)
+  (defvar qml-decl-level-kwds-face 'qml-decl-level-kwds-face)
 
-	(defface qml-conditional-kwds-face
-			`((t (:foreground ,yellow)))
-		"*"
-		)
-	(defvar qml-conditional-kwds-face 'qml-conditional-kwds-face)
+  (defface qml-conditional-kwds-face
+	`((t (:foreground ,yellow)))
+	"*"
+	)
+  (defvar qml-conditional-kwds-face 'qml-conditional-kwds-face)
 
-	(defface qml-block-stmt-1-kwds-face
-			`((t (:foreground ,yellow)))
-		"*"
-		)
-	(defvar qml-block-stmt-1-kwds-face 'qml-block-stmt-1-kwds-face)
+  (defface qml-block-stmt-1-kwds-face
+	`((t (:foreground ,yellow)))
+	"*"
+	)
+  (defvar qml-block-stmt-1-kwds-face 'qml-block-stmt-1-kwds-face)
 
-	(defface qml-simple-stmt-kwds-face
-			`((t (:foreground ,yellow)))
-		"*"
-		)
-	(defvar qml-simple-stmt-kwds-face 'qml-simple-stmt-kwds-face)
+  (defface qml-simple-stmt-kwds-face
+	`((t (:foreground ,yellow)))
+	"*"
+	)
+  (defvar qml-simple-stmt-kwds-face 'qml-simple-stmt-kwds-face)
 
-	(defface qml-label-kwds-face
-			`((t (:foreground ,yellow)))
-		"*"
-		)
-	(defvar qml-label-kwds-face 'qml-label-kwds-face)
+  (defface qml-label-kwds-face
+	`((t (:foreground ,yellow)))
+	"*"
+	)
+  (defvar qml-label-kwds-face 'qml-label-kwds-face)
 
-	(defface qml-expr-kwds-face
-			`((t (:foreground ,red)))
-		"*"
-		)
-	(defvar qml-expr-kwds-face 'qml-expr-kwds-face)
+  (defface qml-expr-kwds-face
+	`((t (:foreground ,red)))
+	"*"
+	)
+  (defvar qml-expr-kwds-face 'qml-expr-kwds-face)
 
-	(defface qml-other-kwds-face
-			`((t (:foreground ,red)))
-		"*"
-		)
-	(defvar qml-other-kwds-face 'qml-other-kwds-face)
+  (defface qml-other-kwds-face
+	`((t (:foreground ,red)))
+	"*"
+	)
+  (defvar qml-other-kwds-face 'qml-other-kwds-face)
 
-	(defface qml-package-name-face
-			`((t (:foreground ,green)))
-		"*"
-		)
-	(defvar qml-package-name-face 'qml-package-name-face)
+  (defface qml-package-name-face
+	`((t (:foreground ,green)))
+	"*"
+	)
+  (defvar qml-package-name-face 'qml-package-name-face)
 
-	(defface qml-class-name-face
-			`((t (:foreground ,cyan)))
-		"*"
-		)
-	(defvar qml-class-name-face 'qml-class-name-face)
+  (defface qml-class-name-face
+	`((t (:foreground ,cyan)))
+	"*"
+	)
+  (defvar qml-class-name-face 'qml-class-name-face)
 
-	(defface qml-function-name-face
-			`((t (:foreground ,green)))
-		"*"
-		)
-	(defvar qml-function-name-face 'qml-function-name-face)
+  (defface qml-function-name-face
+	`((t (:foreground ,green)))
+	"*"
+	)
+  (defvar qml-function-name-face 'qml-function-name-face)
 
-	(defface qml-variable-name-face
-			`((t (:foreground ,cyan)))
-		"*"
-		)
-	(defvar qml-variable-name-face 'qml-variable-name-face)
+  (defface qml-variable-name-face
+	`((t (:foreground ,cyan)))
+	"*"
+	)
+  (defvar qml-variable-name-face 'qml-variable-name-face)
   )
 
 (defconst qml-font-lock-keywords
@@ -230,7 +230,7 @@
 
 (defvar qml-mode-syntax-table
   (let ((qml-mode-syntax-table (make-syntax-table)))
-    ; Comment styles are same as C++
+										; Comment styles are same as C++
     (modify-syntax-entry ?/ ". 124b" qml-mode-syntax-table)
     (modify-syntax-entry ?* ". 23" qml-mode-syntax-table)
     (modify-syntax-entry ?\n "> b" qml-mode-syntax-table)
@@ -262,75 +262,75 @@
   )
 
 (defun qml-indent-line ()
-  (let ((cur (point))
-        (start (qml-get-beg-of-block))
-        (end (qml-get-end-of-block))
-        (cur-indent nil))
-    (save-excursion
-    ;;   (goto-char start)
-    ;;   (setq cur-indent (current-indentation))
-    ;;   (goto-char cur)
-    ;;   (setq cur-indent (+ cur-indent default-tab-width)))
-    (if (not (and start end (> cur start) (< cur end)))
-        (progn
-          ;;(save-excursion
-          (if start
-              (goto-char start))
-          (setq start (qml-get-beg-of-block))
-          (setq end (qml-get-end-of-block))
-          (while (and (not (eq start nil)) (not (eq end nil)) (not (and (> cur start) (< cur end))))
-          ;;(while (not (and (> cur start) (< cur end)))
-            (goto-char start)
-            (setq start (qml-get-beg-of-block))
-            (setq end (qml-get-end-of-block))
-            )
-          (if (or (eq start nil) (= (point) (point-min)))
-              (progn
-                (goto-char (point-min))
-                (when (re-search-forward qml-block-re nil t)
-                  (goto-char (match-beginning 2))
-                  (setq start (point))
-                  (goto-char (match-end 0))
-                  (backward-char)
-                  (condition-case nil
-                      (save-restriction
-                        (forward-list)
-                        (setq end (point))
-                        (setq cur-indent 0))
-                    (error nil)
-                    )
-                  )
-                ;; (goto-char start)
-                ;; (setq cur-indent (current-indentation))
-                )
+  (save-excursion
+	(back-to-indentation)
+	(let ((cur (point))
+		  (start (qml-get-beg-of-block))
+		  (end (qml-get-end-of-block))
+		  (cur-indent nil))
+	  ;;   (goto-char start)
+	  ;;   (setq cur-indent (current-indentation))
+	  ;;   (goto-char cur)
+	  ;;   (setq cur-indent (+ cur-indent default-tab-width)))
+	  (if (not (and start end (> cur start) (< cur end)))
+		  (progn
+			;;(save-excursion
+			(if start
+				(goto-char start))
+			(setq start (qml-get-beg-of-block))
+			(setq end (qml-get-end-of-block))
+			(while (and (not (eq start nil)) (not (eq end nil)) (not (and (> cur start) (< cur end))))
+			  ;;(while (not (and (> cur start) (< cur end)))
+			  (goto-char start)
+			  (setq start (qml-get-beg-of-block))
+			  (setq end (qml-get-end-of-block))
+			  )
+			(if (or (eq start nil) (= (point) (point-min)))
+				(progn
+				  (goto-char (point-min))
+				  (when (re-search-forward qml-block-re nil t)
+					(goto-char (match-beginning 2))
+					(setq start (point))
+					(goto-char (match-end 0))
+					(backward-char)
+					(condition-case nil
+						(save-restriction
+						  (forward-list)
+						  (setq end (point))
+						  (setq cur-indent 0))
+					  (error nil)
+					  )
+					)
+				  ;; (goto-char start)
+				  ;; (setq cur-indent (current-indentation))
+				  )
               )
-          )
+			)
         ;; (progn
         ;;   (goto-char start)
         ;;   (setq cur-indent (current-indentation))
         ;;   (goto-char cur)
         ;;   (setq cur-indent (+ cur-indent default-tab-width)))
         )
-        ;;   )
-        ;; )
+	  ;;   )
+	  ;; )
 
-    (if (not cur-indent)
-        (progn
-          (goto-char start)
-          (setq cur-indent (current-indentation))
-          (goto-char cur)
-          (setq cur-indent (+ cur-indent default-tab-width))))
-    
-    ;;(message (format "start: %d, end: %d, cur: %d, cur-indent: %d" start end cur cur-indent))
-    )
-    (indent-line-to cur-indent)
-    ))
-    ;; (and start
-    ;;      end
-    ;;      (> cur start)
-    ;;      (< cur end))
-  ;;   )
-  ;; )
+	  (if (not cur-indent)
+		  (progn
+			(goto-char start)
+			(setq cur-indent (current-indentation))
+			(goto-char cur)
+			(setq cur-indent (+ cur-indent default-tab-width))))
+	  
+	  ;;(message (format "start: %d, end: %d, cur: %d, cur-indent: %d" start end cur cur-indent))
+	  (indent-line-to cur-indent)
+	  )))
+;; (and start
+;;      end
+;;      (> cur start)
+;;      (< cur end))
+;;   )
+;; )
 
 (defun qml-indent-region (start end)
   (let ((indent-region-function nil))
@@ -348,12 +348,12 @@
   (set (make-local-variable 'indent-region-function) 'qml-indent-region)
   ;; (local-set-key (kbd "}") #'(lambda () (interactive) (insert "}") (qml-indent-line)))
   (local-set-key (kbd "M-;") #'(lambda (arg) (interactive "*P")
-                                       (require 'newcomment)
-                                       (let ((deactivate-mark t)
-                                             (comment-start "//") (comment-end ""))
-                                         (comment-dwim arg)
-                                         (if mark-active
-                                             (deactivate-mark)))))
+								 (require 'newcomment)
+								 (let ((deactivate-mark t)
+									   (comment-start "//") (comment-end ""))
+								   (comment-dwim arg)
+								   (if mark-active
+									   (deactivate-mark)))))
   (setq major-mode 'qml-mode)
   (setq mode-name "qml")
   (run-hooks 'qml-mode-hook)
