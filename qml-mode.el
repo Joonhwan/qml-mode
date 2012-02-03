@@ -1,5 +1,5 @@
 ;;
-;; 
+;; qml-mode for emacs
 ;;
 (defvar qml-mode-hook nil)
 
@@ -361,5 +361,6 @@
   (setq mode-name "qml")
   (run-hooks 'qml-mode-hook)
   )
+;; additional-comment
 
 (provide 'qml-mode)
