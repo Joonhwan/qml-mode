@@ -1,3 +1,6 @@
+;;
+;; 
+;;
 (defvar qml-mode-hook nil)
 
 ;;(defvar qml-font-lock-default-face 'qml-font-lock-default-face)
